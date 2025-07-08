@@ -1,0 +1,20 @@
+These libraries are required to run the Pneumonia Detection project:
+
+1. Python >= 3.10
+   The project is built using Python version 3.11.7. It ensures compatibility with the TensorFlow version used.
+
+
+2. TensorFlow >= 2.12.0
+   TensorFlow is the main deep learning library used to build and train the Convolutional Neural Network (CNN).
+
+
+3. Keras >= 2.12.0
+   Keras (now part of TensorFlow) provides a high-level API to define layers and models easily.
+
+
+4. NumPy >= 1.23.0
+   NumPy handles numerical operations and is used for loading and manipulating the .npz dataset.
+
+
+5. Matplotlib >= 3.7.0
+   Matplotlib is used to visualize chest X-ray images and model predictions.

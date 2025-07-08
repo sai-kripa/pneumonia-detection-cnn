@@ -1,0 +1,16 @@
+Hyperparameter Explanation – Pneumonia Detection CNN Model
+
+
+1. Epochs: We trained the model for 10 epochs, meaning the dataset was passed through the neural network 10 times to help the model learn effectively.
+
+2. Batch Size: A batch size of 32 was chosen to process 32 images at a time, which helps balance memory usage and training speed.
+
+3. Optimizer: We used the Adam optimizer as it automatically adjusts the learning rate during training, making it efficient for deep learning tasks.
+
+4. Loss Function: The categorical crossentropy loss function was used because our model performs classification between two categories: normal and pneumonia.
+
+5. Metrics: Accuracy was selected as the evaluation metric to measure how often the model’s predictions were correct during training and testing.
+
+6. Activation Function: ReLU (Rectified Linear Unit) was used in the hidden layers because it allows the model to learn complex patterns efficiently by introducing non-linearity.
+
+7. Output Activation: Softmax was used in the final layer to convert the output into probabilities, helping the model decide whether the X-ray image is normal or pneumonia.
